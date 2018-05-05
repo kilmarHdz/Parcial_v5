@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Parcialv5</string>
+    <string name="normal">Normal</string>
+    <string name="favorites">Favorites</string>
+    <string name="nombre">Name</string>
+    <string name="search_title">Search</string>
+    <string name="add_a_contact">Add a contact</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email">E-mail address</string>
+    <string name="insert">Insert</string>
+    <string name="contact_infomartion">Contact Infomartion</string>
+    <string name="SomeWrong">Something went wrong</string>
+    <string name="PickImage">You haven\'t picked Image</string>
+    <string name="ShareFrag">Share</string>
+    <string name="NameFrag">Name:</string>
+    <string name="EmailFrag">Email:</string>
+    <string name="PhoneFrag">Phone:</string>
+    <string name="Sending">Send mail...</string>
+    <string name="GrantPhone">Until you grant the permission, we canot display the names</string>
+    <string name="HomeReturn">Home</string>
+    <string name="MobileReturn">Mobile</string>
+    <string name="WorkReturn">Work</string>
+    <string name="HomeFaxReturn">Home Fax</string>
+    <string name="WorkFaxReturn">Work Fax</string>
+    <string name="MainReturn">Main</string>
+    <string name="OtherReturn">Other</string>
+    <string name="CustomReturn">Custom</string>
+    <string name="PagerReturn">Pager</string>
+    <string name="AssistantReturn">Assistant</string>
+    <string name="CallBackReturn">Callback</string>
+    <string name="CarReturn">Car</string>
+    <string name="CompanyReturn">Company Main</string>
+    <string name="WorkMobileReturn">Work Mobile</string>
+    <string name="WorkPagerReturn">Work Pager</string>
+    <string-array name="spinner_add">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home Fax</item>
+        <item>Work Fax</item>
+        <item>Main</item>
+        <item>Other</item>
+        <item>Pager</item>
+        <item>Assistant</item>
+        <item>Callback</item>
+        <item>Car</item>
+        <item>Company Main</item>
+        <item>ISDN</item>
+        <item>MMS</item>
+        <item>Other Fax</item>
+        <item>Radio</item>
+        <item>Telex</item>
+        <item>TTY TDD</item>
+        <item>Work Mobile</item>
+        <item>Work Pager</item>
+    </string-array>
+    <string name="search_hint">Search...</string>
+    <string name="ContactDetail">Contact details</string>
+</resources>

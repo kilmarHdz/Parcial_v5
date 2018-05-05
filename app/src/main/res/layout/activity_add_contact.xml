@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frament.AddContacto_Fragment">
+    <TableLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:elevation="4dp">
+        <TableRow android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="8dp">
+            <TextView android:layout_width="match_parent"
+                android:text="@string/add_a_contact"
+                android:textSize="32sp"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_account_circle_black_36dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/ImageAdd" />
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:src="@drawable/icons8_plus_math_24"
+                    android:id="@+id/UploadAdd"/>
+            </FrameLayout>
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/NameAdd"
+                android:hint="@string/name"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <TableRow
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:layout_marginRight="8dp"
+                android:id="@+id/TypeAdd"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:entries="@array/spinner_add"
+                android:layout_marginEnd="8dp" />
+            <EditText
+                android:layout_marginLeft="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/NumberAdd"
+                android:hint="@string/phone_number"
+                android:inputType="phone"
+                android:layout_marginStart="8dp" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_margin="8dp"/>
+        <TableRow
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/EmailAdd"
+                android:hint="@string/email"/>
+        </TableRow>
+        <TableRow android:gravity="center"
+            android:layout_margin="8dp">
+            <Button android:text="@string/insert"
+                android:textAllCaps="false"
+                android:textColor="#f7f7f7"
+                android:textSize="24sp"
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/InsertNewC"
+                android:elevation="7dp"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

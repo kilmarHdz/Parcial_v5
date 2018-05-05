@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frament.ContactFragment_Click"
+    android:background="#fafafa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_infomartion"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ImageClicked"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:src="@drawable/ic_account_circle_black_36dp"
+                android:gravity="center" />
+        </FrameLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/NameClicked"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textSize="24sp"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/PhoneClicked"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textSize="24sp"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/TypeClicked"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textSize="24sp"
+                    android:gravity="center"/>
+
+            </TableRow>
+
+
+            <TableRow>
+
+
+                <TextView
+                    android:id="@+id/EmailClicked"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textSize="24sp"
+                    android:gravity="center"/>
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/SendCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/roundedbutton"
+                android:padding="5dp"
+                android:src="@drawable/ic_phone_white_24dp"
+                android:layout_marginEnd="16dp" />
+            <ImageButton
+                android:id="@+id/Share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/roundedbutton"
+                android:maxWidth="24dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_share_white_24dp"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

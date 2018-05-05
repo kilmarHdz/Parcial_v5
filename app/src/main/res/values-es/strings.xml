@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parcialv5</string>
+    <string name="normal">Normal</string>
+    <string name="nombre">Nombre</string>
+    <string name="search_title">Busqueda</string>
+    <string name="search_hint">Buscar...</string>
+    <string name="add_a_contact">Agregar contacto</string>
+    <string name="name">Nombre</string>
+    <string name="phone_number">Número de teléfono</string>
+    <string name="email">Correo electronico</string>
+    <string name="insert">Insertar</string>
+    <string name="contact_infomartion">Descripción contacto</string>
+    <string name="SomeWrong">Algo salio mal</string>
+    <string name="PickImage">No ha elegido una imagen</string>
+    <string name="ShareFrag">Compartir</string>
+    <string name="NameFrag">Nombre:</string>
+    <string name="EmailFrag">Corre:</string>
+    <string name="PhoneFrag">Teléfono</string>
+    <string name="Sending">Enviar corre...</string>
+    <string name="GrantPhone">Mientras no conseda los permisos no se pueden desplegar los nombres</string>
+    <string name="HomeReturn">Hogar</string>
+    <string name="MobileReturn">Móvil</string>
+    <string name="WorkReturn">Trabajo</string>
+    <string name="HomeFaxReturn">Fax Hogar</string>
+    <string name="WorkFaxReturn">Fax Trabajo</string>
+    <string name="MainReturn">Principal</string>
+    <string name="OtherReturn">Otros</string>
+    <string name="CustomReturn">Personalizado</string>
+    <string name="PagerReturn">Buscapersonas</string>
+    <string name="AssistantReturn">Asistente</string>
+    <string name="CallBackReturn">Recordatorio</string>
+    <string name="CarReturn">Carro</string>
+    <string name="CompanyReturn">Principal compañia</string>
+    <string name="WorkMobileReturn">Móvil trabajo</string>
+    <string name="WorkPagerReturn">Móvil Buscapersonas</string>
+    <string name="favorites">Favoritos</string>
+    <string name="ContactDetail">Detalles de contacto</string>
+</resources>
